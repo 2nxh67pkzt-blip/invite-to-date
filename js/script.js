@@ -2,6 +2,7 @@ const yesBtn = document.getElementById('yes-button');
 const yesBtn2 = document.getElementById('yes-button2');
 const yesBtn3 = document.getElementById ('yes-button3')
 const noBtn = document.getElementById('no-button');
+const wrapper = document.querySelector('.main__wrapper')
 
 if (noBtn) {
   noBtn.addEventListener('click', () => {

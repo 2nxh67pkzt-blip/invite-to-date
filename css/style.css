@@ -21,12 +21,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-    padding: 40px;
+    min-height: 100vh;
     background-color: var(--color-bg);
 }
 
 .main {
+    margin: 40px;
     box-sizing: border-box;
     max-width: 100%;
     max-height: 100%;
@@ -34,6 +34,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--color-bg);
+}
+
+.main__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .section1 {
@@ -45,11 +51,10 @@ body {
 }
 
 .section1__img {
-    width: 140px;
+    width: 130px;
 }
 
 .section1__title {
-    position: relative;
     font-size: 25px;
 }
 
@@ -58,10 +63,10 @@ body {
 }
 
 .action_button {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
 }
 
 .action_button__yes {
@@ -81,11 +86,12 @@ body {
 
 #no-button {
     position: absolute;
-    left: 12rem;
+    right: 0rem;
     transition: 0.5s;
 }
 
 .action_button__no {
+    position: absolute;
     width: 150px;
     display: flex;
     justify-content: center;
