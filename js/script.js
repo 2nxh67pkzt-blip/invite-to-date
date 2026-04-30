@@ -16,7 +16,7 @@ if (noBtn) {
 
 if (yesBtn) {
   yesBtn.addEventListener('click', () => {
-    location.href = '../html/page2.html';
+    location.href = './html/page2.html';
   });
 }
 
