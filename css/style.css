@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Cute";
+    src: url(../fonts/RubikBubbles-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Cute";
+    font-weight: 300;
+}
+
+:root {
+    --color-bg: #8c9de7;
+    --color-btn: #b3df4b;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    background-color: var(--color-bg);
+}
+
+.main {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg);
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+.section1__img {
+    width: 140px;
+}
+
+.section1__title {
+    position: relative;
+    font-size: 25px;
+}
+
+.section1__title2 {
+    font-size: 19px;
+}
+
+.action_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.action_button__yes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 10px;
+    padding: 5px;
+    background-color: var(--color-btn);
+}
+
+.action_button__yes img {
+    width: 40px;
+}
+
+#no-button {
+    position: absolute;
+    left: 12rem;
+    transition: 0.5s;
+}
+
+.action_button__no {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 10px;
+    padding: 5px;
+    background-color: var(--color-btn);
+}
+
+.action_button__no img {
+    width: 44px;
+}
