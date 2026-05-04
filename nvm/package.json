@@ -1,0 +1,18 @@
+{
+  "name": "invite-to-th-date",
+  "version": "1.0.0",
+  "description": "https://2nxh67pkzt-blip.github.io/invite-to-date/",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+"scripts": {
+  "build-css": "sass style.scss style.css",
+  "watch-css": "sass --watch style.scss style.css",
+  "dev": "concurrently \"npm run watch-css\""
+}
